@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Website</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="style.css" class="pull-left visible-md visible-lg">
+                        <div id="logo-img"> </div>
+                    </a>
+                    <div class="navbar-brand">
+                        <a href="index.html"><h1>Your Home Decor Store</h1></a>
+                    </div>
+                </div>
+            </div>
+            <div id="collapsable-nav" class="collapse navbar-collapse">
+                <ul id="nav-list" class="nav navbar-nav navbar-right">
+                    <li>
+                        <button id="button" style="font-size:36px;" class="btn btn-link">Shop</button>
+                    </li>
+                    <li>
+                       <button id="button" style="font-size:36px;" class="btn btn-link">Sell</button> 
+                    </li>
+                    <li>
+                        <button id="button" style="font-size:36px;" class="btn btn-link">Share</button>
+                    </li>
+                </ul> <!--nav-list-->
+            </div>
+        </nav>
+    </header>
+        
+        <div id="home-tile" class="container">
+            <div id="home-tiles" class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <a href="index.html">
+                        <div id="whatsnew-tile">
+                            <span><h3>What's New</h3></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <a href="index.html">
+                        <div id="fallfavs-tile">
+                            <span><h3>Fall Favs</h3></span>
+                        </div>
+                    </a>
+                </div> 
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <a href="index.html">
+                        <div id="onsale-tile">
+                            <span><h3>On Sale</h3></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div> <!--End of home-tile-->
+
+        <footer class="panel-footer">
+           <div class="container">
+            <div class="row">
+                <section id="hours" class="col-sm-4">
+                    <span>Hours:</span><br>
+                    Monday - Thursday: 10:00am - 7:00pm<br>
+                    Friday: 11:am - 7:00pm<br>
+                    Saturday - Sunday: 12:00pm - 6:00pm
+                    <hr class="visible-xs">
+                </section>
+                <section id="address" class="col-sm-4">
+                    <span>Address:</span><br>
+                    2000 Downtown Ableton Street
+                    Austin, Texas 73300
+                    <p>*We deliver locally*</p>
+                    <hr class="visible-xs">
+                </section>
+                <section id="contact" class="col-sm-4">
+                    <span>Contact Us:</span><br>
+                    Phone: 512-310-4100<br>
+                    Email: yourhomedecorstore@xyz.com
+                </section>
+            </div>
+           </div>
+        </footer>
+
+        <script src="jquery-2.1.4.min.js"></script>
+        <script src="bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,227 @@
+body {
+    font-size: 16px;
+    background-color: #dccaca !important; 
+}
+/**HEADER**/
+#header-nav {
+    background-color: #dbbab6;
+    border-radius: 0;
+    border: 0;
+    padding: 0;
+}
+
+.navbar-brand h1 { /*Company name*/
+    color: white;
+    margin-top: 30px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#logo-img {
+    background: url('freddie-marriage-UcfKYTan-LU-unsplash.jpg');
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+    margin-top: 50px;
+} 
+ul #button {
+    border: 1px solid white;
+    background-color: #b49292;
+    color: white;
+}
+
+/**END HEADER**/
+
+/**HOME PAGE**/
+#home-tiles {
+    padding: 20px;
+    margin: 0;
+}
+
+#whatsnew-tile, #fallfavs-tile, #onsale-tile {
+    height: 250px;
+    width: 100%;
+    border: 2px solid white;
+    overflow: hidden;
+    position: relative;
+}
+
+#whatsnew-tile:hover, #fallfavs-tile:hover, #onsale-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#whatsnew-tile {
+    background: url(spacejoy-YI2YkyaREHk-unsplash.jpg);
+}
+#fallfavs-tile {
+    background: url(pro-church-media-p2OQW69vXP4-unsplash.jpg);
+}
+#onsale-tile {
+    background: url(5444274.jpg);
+}
+
+#whatsnew-tile span, #fallfavs-tile span, #onsale-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color:#000;
+    color: #fff;
+    opacity: .5;
+  }
+/*END OF HOME PAGE*/
+
+@media (min-width: 992px) {
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6,
+    .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+        float: left;
+    }
+    .col-lg-1 {
+        width: 8.33%;
+    }
+    .col-lg-2 {
+        width: 16.66%;
+    }
+    .col-lg-3 {
+        width: 25%;
+    }
+    .col-lg-4 {
+        width: 33.33%;
+    }
+    .col-lg-5 {
+        width: 41.66%;
+    }
+    .col-lg-6 {
+        width: 50%;
+    }
+    .col-lg-7 {
+        width: 58.33%;
+    }
+    .col-lg-8 {
+        width: 66.66%;
+    }
+    .col-lg-9 {
+        width: 74.99%;
+    }
+    .col-lg-10 {
+        width: 83.33%;
+    }
+    .col-lg-11 {
+        width: 91.66%;
+    }
+    .col-lg-12 {
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, 
+    .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+        float: left;
+    }
+    .col-md-1 {
+        width: 8.33%;
+    }
+    .col-md-2 {
+        width: 16.66%;
+    }
+    .col-md-3 {
+        width: 25%;
+    }
+    .col-md-4 {
+        width: 33.33%;
+    }
+    .col-md-5 {
+        width: 41.66%;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-7 {
+        width: 58.33%;
+    }
+    .col-md-8 {
+        width: 66.66%;
+    }
+    .col-md-9 {
+        width: 74.99%;
+    }
+    .col-md-10 {
+        width: 83.33%;
+    }
+    .col-md-11 {
+        width: 91.66%;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6,
+    .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+        float: left;
+    }
+    .col-sm-1 {
+        width: 8.33%;
+    }
+    .col-sm-2 {
+        width: 16.66%;
+    }
+    .col-sm-3 {
+        width: 25%;
+    }
+    .col-sm-4 {
+        width: 33.33%;
+    }
+    .col-sm-5 {
+        width: 41.66%;
+    }
+    .col-sm-6 {
+        width: 50%;
+    }
+    .col-sm-7 {
+        width: 58.33%;
+    }
+    .col-sm-8 {
+        width: 66.66%;
+    }
+    .col-sm-9 {
+        width: 74.99%;
+    }
+    .col-sm-10 {
+        width: 83.33%;
+    }
+    .col-sm-11 {
+        width: 91.66%;
+    }
+    .col-sm-12 {
+        width: 100%;
+    }
+}
+
+/*footer*/
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #b49292 !important;
+    border-top: 0;
+}
+
+.panel-footer div.row {
+    padding: 40px;
+}
+
+div section {
+    color: white;
+}
+div section p {
+    color: rgb(196, 72, 72);
+}
+/*End of footer*/
