@@ -25,12 +25,12 @@ body {
     margin: 10px 15px 10px 0;
     margin-top: 50px;
 } 
-ul #button {
+li #button {
     border: 1px solid white;
     background-color: #b49292;
     color: white;
+    margin: 10px;
 }
-
 /**END HEADER**/
 
 /**HOME PAGE**/
@@ -41,7 +41,8 @@ ul #button {
 
 #whatsnew-tile, #fallfavs-tile, #onsale-tile {
     height: 250px;
-    width: 100%;
+    width: 360px;
+    margin: 0 auto 15px;
     border: 2px solid white;
     overflow: hidden;
     position: relative;
@@ -52,13 +53,16 @@ ul #button {
 }
 
 #whatsnew-tile {
-    background: url(spacejoy-YI2YkyaREHk-unsplash.jpg);
+    background: url(spacejoy-YI2YkyaREHk-unsplash.jpg) no-repeat;
+    background-position: center;
 }
 #fallfavs-tile {
-    background: url(pro-church-media-p2OQW69vXP4-unsplash.jpg);
+    background: url(pro-church-media-p2OQW69vXP4-unsplash.jpg) no-repeat;
+    background-position: center;
 }
 #onsale-tile {
-    background: url(5444274.jpg);
+    background: url(5444274.jpg) no-repeat;
+    background-position: center;
 }
 
 #whatsnew-tile span, #fallfavs-tile span, #onsale-tile span {
@@ -204,6 +208,7 @@ ul #button {
         width: 100%;
     }
 }
+
 
 /*footer*/
 .panel-footer {
